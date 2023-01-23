@@ -20,5 +20,5 @@ print(ip)
 
 domain = ('cma4.box')
 
-os.system(f"echo {domain} {ip} > /etc/resolv.conf")
+os.system(f"echo {domain} {ip} >> /etc/resolv.conf")
 os.system('cat /etc/resolv.conf')
