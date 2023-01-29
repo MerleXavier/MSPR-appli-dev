@@ -1,0 +1,44 @@
+Hôte : 192.168.1.1 (lan.home)
+port : 80	état : open
+port : 139	état : open
+port : 443	état : open
+Hôte : 192.168.1.130 (vmb3010.home)
+Hôte : 192.168.1.15 (sxr80.home)
+port : 80	état : open
+port : 443	état : open
+Hôte : 192.168.1.16 (huesyncbox-c4299604ec34.home)
+port : 443	état : open
+Hôte : 192.168.1.17 (d01675kf.home)
+Hôte : 192.168.1.18 (amazon-a2c70de94.home)
+Hôte : 192.168.1.19 (ecb5fa069eec.home)
+port : 80	état : open
+port : 443	état : open
+Hôte : 192.168.1.21 (google-home-mini.home)
+Hôte : 192.168.1.23 (tab-s7-de-patrice.home)
+Hôte : 192.168.1.24 (ipad.home)
+Hôte : 192.168.1.25 (sxs80.home)
+port : 80	état : open
+port : 443	état : open
+Hôte : 192.168.1.26 (sxs80-1.home)
+port : 80	état : open
+port : 443	état : open
+Hôte : 192.168.1.27 (hs100.home)
+Hôte : 192.168.1.28 (freebox-player.home)
+port : 80	état : open
+Hôte : 192.168.1.29 (diskstation01.home)
+port : 80	état : open
+port : 139	état : open
+port : 443	état : open
+Hôte : 192.168.1.30 (android.home)
+port : 139	état : open
+Hôte : 192.168.1.31 (android-3.home)
+Hôte : 192.168.1.33 (android-2.home)
+Hôte : 192.168.1.35 (desktop-aii82sc-1.home)
+port : 135	état : open
+port : 139	état : open
+Hôte : 192.168.1.44 (c4h-eu-paa4507a.home)
+Hôte : 192.168.1.45 (rt-ac88u.home)
+port : 80	état : open
+Hôte : 192.168.1.47 (pc-1151.home)
+port : 111	état : open
+Hôte : 192.168.1.56 (semaos.home)

@@ -1,0 +1,4 @@
+python-nmap
+streamlit
+mysql.connector
+hashlib

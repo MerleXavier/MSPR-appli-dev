@@ -1,0 +1,58 @@
+import streamlit as st
+import subprocess
+from streamlit_elements import elements, mui
+
+st.title("Dashboard")
+
+#scan = "python3 script/scan.py"
+
+#def run_script():
+#    process = subprocess.Popen(scan.split(), stdout=subprocess.PIPE)
+#    while True:
+#        output = process.stdout.readline()
+#        if output == b'' and process.poll() is not None:
+#            break
+#        if output:
+#            st.write(output.strip())
+#
+#if st.button("Run script"):
+#    run_script()
+
+with elements("dashboard"):
+
+    # You can create a draggable and resizable dashboard using
+    # any element available in Streamlit Elements.
+
+    from streamlit_elements import dashboard
+
+    # First, build a default layout for every element you want to include in your dashboard
+
+    layout = [
+        # Parameters: element_identifier, x_pos, y_pos, width, height, [item properties...]
+        dashboard.Item("scan_item", 2, 0, 3, 4),
+        dashboard.Item("second_item", 0, 0, 1, 1),
+        dashboard.Item("third_item", 0, 2, 1, 1),
+    ]
+
+    # Next, create a dashboard layout using the 'with' syntax. It takes the layout
+    # as first parameter, plus additional properties you can find in the GitHub links below.
+
+    with dashboard.Grid(layout):
+        with mui.Paper("Scan Réseau", key="scan_item"):
+            scan = "python3 script/scan.py"
+            scan_output = "scan_output.txt"
+            def run_script():
+                process = subprocess.Popen(scan.split(), stdout=subprocess.PIPE)
+                while True:
+                    output = process.stdout.readline()
+                    if output == b'' and process.poll() is not None:
+                        break
+                    if output:
+                        (output.strip())
+            if st.button("Run script"):
+                run_script()
+        mui.Paper("Second item (cannot drag)", key="second_item")
+        mui.Paper("Third item (cannot resize)", key="third_item")
+
+    # If you want to retrieve updated layout values as the user move or resize dashboard items,
+    # you can pass a callback to the onLayoutChange event parameter.
