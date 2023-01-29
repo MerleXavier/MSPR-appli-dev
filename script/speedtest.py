@@ -18,4 +18,4 @@ with open('result.txt', 'w') as s:
     s.write(str(list_result[1]))
 
 
-os.system('rm result-temp.txt')
+#os.system('rm result-temp.txt')

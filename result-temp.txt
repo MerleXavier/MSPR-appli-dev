@@ -1,0 +1,12 @@
+
+SpeedtestbyOokla
+
+Server:ORANGEFRANCE-Bordeaux(id:29542)
+ISP:Orange
+IdleLatency:2.70ms(jitter:0.69ms,low:1.84ms,high:3.51ms)
+Download:614.97Mbps(dataused:811.3MB)
+42.55ms(jitter:15.83ms,low:3.54ms,high:206.47ms)
+Upload:630.87Mbps(dataused:1.1GB)
+22.95ms(jitter:17.71ms,low:3.71ms,high:474.81ms)
+PacketLoss:0.0%
+ResultURL:https://www.speedtest.net/result/c/7917ea1d-b182-4395-a41e-dcb977836401
