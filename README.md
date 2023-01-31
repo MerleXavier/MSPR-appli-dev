@@ -3,8 +3,14 @@
 ## Semabox
 Pour faire la supervision du réseau.
 
+Pour faire fonctionner l'interface web:
+```streamlit run login.py```
+
 ## Semalynx
 Pour garder un contrôle sur les Semabox.
+
+Pour faire fonctionner l'interface web:
+```streamlit run login.py```
 
 ## Pour info
 Le script *auto-update-git.sh* va permettre de mettre à jour votre SemaBox et votre Semalynx.
